@@ -1,6 +1,6 @@
 # Technical/Functional Requirements
 
-This is really the main job of the FE Architect, gathering as much information on technical requirements as possible, before the team starts building. This is an enormous topic which is very specific to the type of app you are building. I will go through some common conciderations, as well as a few types of common apps.
+This is really the main job of the FE Architect, gathering as much information on technical requirements aszx possible, before the team starts building. This is an enormous topic which is very specific to the type of app you are building. I will go through some common conciderations, as well as a few types of common apps.
 
 The requirements for a FE App are very different than a BE service. Yet you will closely interacting with the BE team on many considerations.
 
@@ -17,6 +17,8 @@ Here are some general requirements that will help you architect a solution:
   * **Chunking**: Webpack allows "chunking" the app into segments. So your preferences screen may be asynchronously loaded when you navigate to it. This is a great approach to reduce load time. However, it will increase load time in between pages (as opposed to loading up your app all at once)
   * **Max Page Size**: With the Node ecosystem, it's very easy to have bundle sizes in the megabytes. Which are no problem for gigabit LAN connections, but will cause issues on unreliable cellular connections. If lower page sizes are needed, you may want to opt for smaller libraries, or a few other strategies I will suggest below. I will discuss the tradeoffs of each strategy
 * **Mobile App Considerations**: Often times there will be a significant variation for the mobile vs desktop experience. While it's very convenient to maintain them as one app, sometimes the mobile experience could benefit from a smaller package size due to the cellular connection. There are many strategies to get the best of both worlds, such as sharing a common code library with tree shaking (ex: buttons, style guide, API handling) and chunking by route
+* **\[T] Dataset Size**:&#x20;
+  * Do we anticipate any huge datasets to be rendered (thousands of history rows somehow) Ex: progressive tables, google photos
 
 Improving Performance
 
@@ -41,7 +43,38 @@ Improving Performance
 
 
 
-Improving Build Speed
+## Todo
+
+* **\[T] Performace Analytics/Performance Monitoring:**
+  * Perf-analytics-fe Google Performance API Just log manually Datadog
+* Images
+  * Image optimization - different sizes Retina Display (2x) Alt Text srcset (multiple image sizes)
+  * Lazy load images
+* Serving over HTTP2 vs HTTP1 - compatibility, fallback
+* CDN - something like CloudFront? Akamai? Do we need multiple edge locations? Where are our users located?
+* Caching - latest info each time or slightly outdated ok? Latest - huge network usage Cache - might be slightly outdated Browser caching, cache busting LocalStorage Cookies or LocalStorage for Auth
+* Server Side rendering for public pages? Google optimization
+* What metrics are we optimizing for
+  * Track metrics&#x20;
+* Load on Server&#x20;
+  * If doing SSR, more load on the server, are we using a separate server? Same server?&#x20;
+  * Load balancing for failover K8S cluster for server app?&#x20;
+  * For SSR app?&#x20;
+  * Lambda @ Edge?&#x20;
+  * Lots of API requests = too much load on server?&#x20;
+  * Or do we want the latest info all the time?&#x20;
+  * Microservices for FE, so that one app doesn’t affect another&#x20;
+  * Progress Web App?&#x20;
+    * Offline mode&#x20;
+    * No internet connection
+
+User Experience Tracking
+
+Usage Metrics Talk w/ Marketing and PM about tooling to keep track of metrics Usage of app: Mixpanel, Fullstory Errors, Logging: Datadog, Sentry Marketing: Google Ads, FB Pixel Feature Flagging: LaunchDarkly - feature flagging conversion tracking or segments Feature Flagging LaunchDarkly Are we turning on features slowly? One by one? For specific segments? By type of user? Blue/Green Deploys Rolling back deploys strategy? Horrible error? Automatically track errors and roll back? A/B testing using feature flags, collect metrics on what does better
+
+
+
+## \[T] Improving Build Speed
 
 * Yarn Cache
 * Docker image cache
