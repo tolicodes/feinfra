@@ -6,3 +6,4 @@
   * [Technical/Functional Requirements](requirements-gathering/technical-functional-requirements.md)
 * [Existing Resources](existing-resources.md)
 * [Environment Setup](environment-setup.md)
+* [Scaling FE Teams - My HOVER Story](scaling-fe-teams-my-hover-story.md)

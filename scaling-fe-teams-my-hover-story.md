@@ -1,0 +1,39 @@
+# Scaling FE Teams - My HOVER Story
+
+I joined HOVER as the second frontend engineer. The first frontend engineer, Kerry, became my boss, the Director of Frontend. I took on the more architectural responsibilities. HOVER scaled incredibly quickly bringing on all sorts of growing pains.
+
+For one, as we added engineers, the number of bugs in our app increased exponentially. Sometimes it would even be essential features, such as the app login, breaking all of a sudden. Many companies take these growing pains as a given. But we decided not to compromise on the quality and reliability of our product. This led to me taking on the type of project I truly enjoy and excel at. Not one with any strict requirements or specs, passed down by a PM, but an open ended problem, where I truly got to understand my “customer”, our Frontend Engineers, on both a technical and personal level.
+
+Kerry and I would have frequent chats, discussing how to tackle these kinds of challenges, both on the technical and practical side. He would clear the way with management, explaining to them why we should dedicate time and resources to such infrastructural projects. And I would work together with the team to implement such projects.
+
+At first, we decided to approach the problem by writing unit tests. We started with virtually no coverage. We asked the engineers to write tests…but they didn’t. They had tight deadlines on feature work, and a lot of infrastructure to write tests properly was just not in place. How do you test Redux? Sagas? Complex components? Especially in the early days of React, there were no clear answers. So I took on the responsibility of laying that groundwork. I wrote the tooling and documentation necessary to make unit testing fun and simple.
+
+And slowly, our unit tests started to grow…but still not at the pace we wanted. So Kerry and I talked about implementing something that I haven’t seen at any company I worked at. Infra Day! One day a week, we would gather together as a team, and take on these arduous tasks, like writing unit tests. It was a tough sell to management, but they decided to give it a go. Within 3 Infra Days, we had something like 85% unit test coverage. What seemed like an insurmountable task, was surmounted.
+
+Management quickly reaped the benefits of Infra Day. Our bugs reports dropped. We scaled even quicker.
+
+Infra Day turned into Infra Sprint. We dedicated 1 week every month to solving a large challenge. This included upgrading to React Hooks, switching to TypeScript, implementing GraphQL. Again, I would lead the groundwork and research, and present to the team a case of why TypeScript would make their life easier. And I would provide all the boilerplate necessary to get them going, mentoring each team member as needed, in learning the new technology. The effects were phenomenal. Our code was clean, fast, and modern.
+
+A rather major advancement was our switch to Kubernetes. I Dockerized all of our frontend apps, optimized our local dev setup, and created a boilerplate that would launch a new microservice to our pool with a simple PR, complete with CI/CD, testing, and 3 environments. Launching a microservice had never been easier.
+
+At this point our little team had grown to something like 20 engineers and something like 6 teams. But then…bug-pocalypse struck again. With all these new engineers and microservices, a new testing challenge struck. Sure, our components worked in isolation, more or less, but with the API changing daily, and microservices all interacting with each other, and new engineers being onboarded almost weekly, unit tests alone just wouldn’t cut it. So, we faced the same problem at the beginning of our story – how do we get engineers to do a boring, labor-intensive, boilerplate ridden task - integration testing.
+
+Now this wasn’t quite as straightforward to solve. We asked our engineers to write Selenium tests. And they pretty much said “no”. So I did some research, and found a fancy new framework called Cypress. It was faster and sleeker than good old Selenium. I even wrote a few sample tests, set up the boilerplate to get the team started. But the labor required to backfill everything we had built so far just seemed insurmountable. So then…I started thinking outside the box. What can we do to reduce the amount of work necessary to write integration tests. I started small, just wrote 10-20 tests. And I noticed, I was writing at least 10-20 lines of boilerplate code for each test. What’s worse, after about 20 tests I basically had a huge spaghetti file of unreadable code. I couldn’t tell myself what I had and hadn’t tested, just by looking. What the steps were. And any time there was some sort of selector change, or a refactor, I knew all my tests would break.
+
+So first, I approached the spaghetti code problem. I did some research, and I found the Cucumber standard. This standard allowed you to write tests in English, and then write the related cypress definitions. So already, things got a bit more organized. But still, I was writing a lot of the same boilerplate. So I started abstracting away some of the common patterns I used in Cucumber. And before I knew it, I wrote a pretty in depth regex engine. There were roughly 30 statements, each with a handful of common variations, that could be used to describe 90%+ of our scenarios. I built a basic grammar engine, so that the statements made sense in various contexts. Statement would look something like this:
+
+Scenario: Test a site out When I open the "Home Page" And I click on the "Get Started Button" inside of the "Header" Then I should be redirected to the "Getting Started Page"
+
+Scenario: Sign up for updates When I open the "Home Page" And I enter "toli@hoverinc.com" into the "Email Input" in the "Newsletter Form" And I click "Submit" in the "Newsletter Form" Then I should see a "Newsletter Signup Confirmation Popup"
+
+Notice how there are a few variations. You can reference elements on their own, or inside other elements, with a grammar that made sense “inside of the” vs “in the”. All the element selectors were abstracted into an easy to read json file, which would avoid our refactor problem. And there were all sorts of cool features like searching for text, enumeration (3rd button), state management, endpoint stubbing (including GraphQL).
+
+Little by little I started building on top of these abstractions, and started adding tools that could be used in conjunction with my engine, or individually. Soon it turned into its own library – PickleJS, which HOVER released as its first open source project.
+
+Very quickly our team adopted this new standard. It was pretty self explanatory. But I would sit with each team and help them get started. Of course, all sorts of interesting scenarios would come up in each team. And I pair programmed with them to make Pickle more and more stable and complete.
+
+We built all sorts of interesting customizations on top of Pickle. The coolest was our 3D testing engine. I worked closely with the CV team to build a truly unique system for advanced visual regression testing, for our main product, a 3D OpenGL house renderer. I could go into all the challenges here, but I will save it for our onsite ;).
+
+One day, a large German bank contacted me. They tell me they love Pickle and have started building their whole testing infrastructure on top of it. They built all sorts of custom features like matrixes of inputs on top of my code. I asked them why they chose Pickle. And it was simple. My library was modular and extensible, from the very beginning. You were not forced into using any of its opinionated choices. You could use any of my individual modules as you wish. The code was readable and simple.
+
+This is how I aim to write all my code. A real win isn’t solving a problem. It’s building a solution that others could build on top of.
