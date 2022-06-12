@@ -1,2 +1,0 @@
-# Common Components / Design System
-
