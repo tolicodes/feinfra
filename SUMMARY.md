@@ -14,6 +14,7 @@
 * [Examples](examples/README.md)
   * [Trading System](examples/trading-system.md)
 * [Topic In Depths](topic-in-depths/README.md)
+  * [Containerization](topic-in-depths/containerization.md)
   * [Data Stack](topic-in-depths/data-stack.md)
 * [Common Solutions](common-solutions.md)
 * [Success/Failure Stories](success-failure-stories/README.md)
