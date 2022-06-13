@@ -28,7 +28,19 @@ OpenGSN, Offchain Whitelisting, Node Queue, PickleJS, API Scraping Watch Me Code
 
 ### Personal Story
 
-At 17 I was diagnosed with Aspergers. 5 years later, with Bipolar Disorder. Learning to navigate both was quite a challenging journey. But through that journey I learned important lessons that guide my engineering philosophy. Mental health is not a binary diagnosis. It affects every single person. Every engineer is unique, with their own strengths, weaknesses, passions, needs, and motivations. Engineers work best when they are in flow, interally and with each other. I’ve personally witnessed, the radical effects on teams that optimize for creating flow. This understanding led me to my finding my passion — laying the technical groundwork for a productive, inclusive, and fun environment, by engineering the tooling and infrastructure that the whole team can build upon, allowing them to focus on what they do best, avoiding boilerplate and solving the same common problems. Enabling engineers to do what they enjoy is the key to achieving flow. Even more importantly, I enjoy fostering a team culture where egos can truly be dropped, creating states of flow where feedback is seen as just that - feedback, a mechanism to help each other, the product, and company grow. It is my passion, specialty, and mission, not just to write instrastructural frontend code, but to mentor, pair program with, and scale frontend teams.
+I'm not an Engineering Manager and have no intention of going that route. What I do bring to the table are:
+
+**Staff level IC skills with 12y experience**
+
+AND
+
+**A career focus on engineering culture**
+
+It is my passion, specialty, and mission to write **instrastructural frontend code** that enables frontend teams to scale quickly and seamlessly. I create tooling, libraries, and architecture, removing all the "boring" boilerplate, massively reducing bugs and technical debt, and most importantly, **enabling engineers to work on what they truly enjoy.**
+
+But I go a step further. For me, culture is more than just a buzz word. Each engineer is unique, with their own strengths, weaknesses, passions, needs, and motivations. **Engineers work best when they are in flow.**
+
+I lead implementing strategies and policies (ask me about infrastructure sprint!) that help boost engineer interaction, participation, and satisfaction. Even more importantly, I enjoy fostering a team culture where **egos can truly be dropped**, creating states of flow where feedback is seen as just that - feedback, a mechanism to help each other, the product, and company grow.
 
 ## Contibuting
 
