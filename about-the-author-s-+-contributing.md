@@ -12,7 +12,7 @@ Toli is a FE architect with 12y of experience. He started his career in enterpri
 
 [Github](https://github.com/)
 
-[Resume](https://drive.google.com/file/d/16Dj9MyCYVyi5fQ23bf8exye9yow9ZVwa/view?usp=sharing)
+[Resume](https://drive.google.com/file/d/15ASf3FdonOVelTvUhCm72fh9YiNW9oKL/view?usp=sharing)
 
 [Website](https://tolicodes.com/)
 
