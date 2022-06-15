@@ -22,4 +22,5 @@
 * [Other Resources](existing-resources.md)
 * [Environment Setup](environment-setup.md)
 * [About The Author(s) + Contributing](about-the-author-s-+-contributing.md)
+* [Interviewing for FE](interviewing-for-fe.md)
 * [Culture](culture.md)
