@@ -27,5 +27,7 @@
   * [Getting The Interview](interviewing-for-fe/getting-the-interview.md)
   * [Negotiation Tips](interviewing-for-fe/negotiation-tips.md)
   * [How RSU's Work](interviewing-for-fe/how-rsus-work.md)
+  * [Companies](interviewing-for-fe/companies.md)
+  * [Moving Up in Your Career](interviewing-for-fe/moving-up-in-your-career.md)
   * [FAQ](interviewing-for-fe/faq.md)
 * [Culture](culture.md)
