@@ -49,7 +49,7 @@ These are **crucial** to more senior level positions. They're going to test a wh
 
 You may be given a mockup/design or you may be given a vague prompt. Your job is to describe how you would architect the app in either scenario.
 
-If you read the rest of the pages in this book, you will find all sorts of [Technical](../technical-functional-requirements/) and [Non Technical](../product-nonfunctional-requirements.md) considerations.&#x20;
+If you read the rest of the pages in this book, you will find all sorts of [Technical](technical-functional-requirements/) and [Non Technical](product-nonfunctional-requirements.md) considerations.&#x20;
 
 You generally will be asked to:
 
@@ -71,11 +71,11 @@ Common questions will include:
 * Describe a disagreement you had with your team. How did you handle it
 * What impact have you had on your team mates? Pair programming? Mentoring? Helping with personal problems. **Tell stories**. Everyone can say "oh yeah I love mentoring coworkers". But how? What actual impact have you had on your team mates?
 
-I will write a few examples of stories in [Culture](../culture.md). Also check out [Success/Failure Stories](../success-failure-stories/).
+I will write a few examples of stories in [Culture](culture.md). Also check out [Success/Failure Stories](success-failure-stories/).
 
 ## Project Deep Dive
 
-Your job will be to describe a project where you've had the most impact. Tell a story. Draw them in. Show them that you made some interesting technical choices. That you handled conflict well. That you helped the team, and the product, and the company in major ways. Here's my [Pickle](../scaling-fe-teams-my-hover-story.md) story about how I helped my company scale their FE team by creating an open source framework.
+Your job will be to describe a project where you've had the most impact. Tell a story. Draw them in. Show them that you made some interesting technical choices. That you handled conflict well. That you helped the team, and the product, and the company in major ways. Here's my [Pickle](scaling-fe-teams-my-hover-story.md) story about how I helped my company scale their FE team by creating an open source framework.
 
 For these interviews you might have one interview for the technical side (mostly asking architecture questions). And one interview by an EM, asking culture questions.
 
