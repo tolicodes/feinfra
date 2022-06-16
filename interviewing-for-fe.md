@@ -8,9 +8,28 @@ Generally speaking for a Senior/Staff position you will have the following inter
 
 ## Evaluation Exercise
 
-An evalutation exercise is generally a "LeetCode" style problem, where there are a list of requirements, progressing in difficulty. The exercise is automatically graded, based on passing tests, are you will receive a certain "score". If the score is passing, you will be directed to an onsite interview.
+An evalutation exercise is generally a "LeetCode" style problem, where there are a list of requirements, progressing in difficulty. The exercise is automatically graded, based on passing tests, are you will receive a certain "score" (ex: 525/1000). If the score is passing, you will be directed to an onsite interview.
+
+The key to solving these problems it to take it step by step. Write custom tests as you go along to ensure you don't break anything from the previous requirement.
 
 For frontend interviews, the problems may not be as argorithmic, but will require some basic knowledge of concepts like state management, recursion, and string manipulation. For example you may be asked to create a function that manages operations on text (appending, deleting, selecting, undoing, redoing).
+
+So if I were writing tests I would make the following:
+
+* allows to append a string
+* handles an empty string while appending
+* allows to delete from the end of the string
+* allows to select at the beginning of the string
+* allows to select at the end of the string
+* allows to select in the middle of the string
+* allows empty selection
+* allows to delete selected string (at the beginning, middle, end)
+
+Make sure you always handle edge cases.
+
+Seperate out code into the smallest functions you can, and pass in only the relevant state the function needs.
+
+Most importantly, don't try to make your code perfect and give yourself 10 minutes at the end to clean up. Since these tests are automated, you want to make sure you have a working version of your code for all the requirements you've solved. 750/1000 becomes 0 if you have a last minute runtime error. Don't worry if you haven't solved all the requirements. The passing score for these types of prompts may be as low as 50%.
 
 ## Debugging Interview
 
@@ -42,6 +61,9 @@ Some common features you might want to implement are:
 * Waiting for images to finish loading
 * Debouncing clicks (what if I click the next button a few times? Will the right image render or the one that loaded first?)
 * CSS and positioning of course
+* Layout of all the components
+* How handlers work (do you make API calls in your individual components? page level? a store? context?)
+  * hint: Redux may not be the best choice here, as it requires a lot of boilerplate and you only have an hour. However make sure to mention that irl you will use a different state store than your example
 
 ## System Design Interviews
 
@@ -75,7 +97,17 @@ I will write a few examples of stories in [Culture](culture.md). Also check out 
 
 ## Project Deep Dive
 
-Your job will be to describe a project where you've had the most impact. Tell a story. Draw them in. Show them that you made some interesting technical choices. That you handled conflict well. That you helped the team, and the product, and the company in major ways. Here's my [Pickle](scaling-fe-teams-my-hover-story.md) story about how I helped my company scale their FE team by creating an open source framework.
+Your job will be to describe a project where you've had the most impact.&#x20;
+
+**Tell a story.** Draw them in.  Make them live what you went through. There is a wide variety of how you can describe an accomplishment. For example you can say "I wrote a testing framework". Not very special. Or you can tell the story of how frequently bugs happened. How customers compained. How everyone struggled. How the team tried and failed to implement other approaches. And then you come in and save the day!&#x20;
+
+I read a book on storytelling a while back and it changed my world. It referred to the "[Hero's Journey](https://tvtropes.org/pmwiki/pmwiki.php/Main/TheHerosJourney)" trope. Most captivating stories use it. And you can turn even the most mundane technical accomplishment into an amazing story.
+
+![](<.gitbook/assets/image (1).png>)
+
+Show them that you made some interesting technical choices. That you handled conflict well. That you helped the team, and the product, and the company in major ways.&#x20;
+
+Here's my [Pickle](scaling-fe-teams-my-hover-story.md) story about how I helped my company scale their FE team by creating an open source framework.
 
 For these interviews you might have one interview for the technical side (mostly asking architecture questions). And one interview by an EM, asking culture questions.
 
