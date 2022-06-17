@@ -12,6 +12,8 @@ Here are some ethical tips to maximize your offer :)
 * **never say what you want directly.** Instead say “well Google offered me $x. And I’m also interviewing for Meta who’s targeting me for an ICy. So I’m entertaining offers in $x+$20k - $x-$50k ranges. I still want to do a few more interviews to see where my skillset will get me. But of course TC isn’t everything. I REALLY love your culture and think I’ll be an amazing fit”
 * **apply time pressure** “Your company is my favorite, but Google did make a more lucrative offer. I need to give them an answer by Friday. Do you think you can come back with a comparable offer before then?”
 * **the company wants you to be happy**: A company doesn’t want to squeeze the smallest salary out of you. You will resent them and quit as soon as you get a better offer. They invested a lot of money in you and want you to be happy and stick around.&#x20;
+* **ask for signon bonus**: your salary is a yearly expense, so it has to be accounted for in the budget. A one time bonus is a one time expense. You will usually be able to add another $30,000 or so to your first year salary by asking for a signon bonus. After the first year, you can usually ask for a riase, so it won't be that big a deal
+* **ask for different cities**: most companies will have cost of living variations for different cities. NYC and SF are Tier 1 cities and will generally compensate $30k or so more than Tier 2 cities (ex: Miami). But of course be aware of the state tax and cost of living implications.
 
 
 
