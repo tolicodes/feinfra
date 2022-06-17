@@ -6,6 +6,8 @@ Note that I chose Dropbox, and am strongly happy with my choice, so I'm obviousl
 
 I will slowly fill this page with other companies I interviewed for. Feel free to a submit a PR for yours.
 
+**IMPORTANT**: I am NOT legally representing any of this information or claiming it's valid. It's simply an aggregation of what I've heard asking around. It is meant to give you a rough sketch and opinion of culture within these companies
+
 ## Dropbox
 
 #### Pros
@@ -50,3 +52,25 @@ Some of the perks that stood out
 Dropbox is “virtual first”. You don’t have an assigned office. You can work from anywhere in the US (note it does affect your salary based on city). And I think a few months outside the country (they were vague). There is a list of like 10 countries you can work from permanently, but expect much less $
 
 Dropbox has “Studios” where you can work out of. But they’re nowhere near as nice as pre-COVID offices with free 3 star Michelin food. You may cowork out of studios, or meet with your team occasionally.
+
+Dropbox has a range of salary bands adjusted for location. If you relocate somewhere permanently, then eventually they'll reassign your salary band accordingly.
+
+You may work anywher in the US, as there are no required in person meetings. Additionally, Dropbox has a list of approved locations in which the company is registered as an employer.&#x20;
+
+This includes:
+
+* Australia
+* Canada
+* France
+* Germany
+* Ireland
+* Israel
+* Japan
+* Netherlands
+* Singapore
+* Sweden
+* US
+* UK
+
+You are allowed to take short/medium term trips working from elsewhere in the world! Exactly how long you can spend somewhere before you change your residency is probably the fuzzy part. I've gotten various info that the remote work can range 1-3 mo.
+
