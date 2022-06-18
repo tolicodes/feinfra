@@ -2,17 +2,37 @@
 
 Interviewing for frontend positions will vary from company to company. But here are some similarities.
 
-Generally speaking for a Senior/Staff position you will have the following interviews.
+**IMPORTANT: the following examples have been sourced and adapted from various interviews I've had over the years. They are not meant to give you "insider info" on any one company, but rather give you a sense of how to think. They are not meant to give you an unfair advantage over others, but rather let you showcase your skills to your potential employer. Good Luck!**
 
-**Please note that the following examples are just examples sourced from various interviews I've had over the years. They may or may not have been actual questions from companies. But generally follow the concepts I've seen throughout.**
+The info below mostly deals with FE interviews. For BE/FS expect more algorithmic/LeetCode questions.
 
-## Evaluation Exercise
+## Expectations Based on Level
 
-An evalutation exercise is generally a "LeetCode" style problem, where there are a list of requirements, progressing in difficulty. The exercise is automatically graded, based on passing tests, are you will receive a certain "score" (ex: 525/1000). If the score is passing, you will be directed to an onsite interview.
+The main difference between interviews would be:
+
+* **Junior**: testing for quantitative measurements of you coding ability. You don't have any real experience to point to. But you can study up on LeetCode. Generally problems will be graded on your abililty to study for these types of questions
+* **Mid**: expect more interviews aimed at your organization skills (how to architect a simple component, such as an image slider). You will also be asked about your past experience. The main thing to focus on is ability to learn and handle conflict. You will be expected to take ownership of a feature.
+* **Senior**: you are expected to showcase your leadership abilities. Mentoring others, pair programming. Having responsibilites such as leading the team, making technical decisions, and having ownership of a project (or lead a small team)
+* **Staff**: you are expected to do all the above, but lead on a cross-team level. Meaning you owned implementation across projects. Main signals will come from System Design interviews and ability to solve open ended problems
+* **Principal+**: no idea :) I'll tell you when I get there!
+
+
+
+**Quick Hack**: If you are interviewing for a certain leveling (ex: IC3), ask the recruiter for the level description. It will list a bunch of bulleted items about what they're looking for. Focus on showcasing those items.
+
+****
+
+Generally speaking for a Senior/Staff position you can expect the following interviews.
+
+## LeetCode/Evaluation Exercise
+
+An evalutation exercise is generally a "LeetCode" style problem, where there are a list of requirements, progressing in difficulty. The exercise is automatically graded, based on passing tests, are you will receive a certain "score" (ex: 500/1000). If the score is passing, you will be directed to an onsite interview.
+
+For frontend interviews, the problems may not be as argorithmic, but will require some basic knowledge of concepts like state management, recursion, and string manipulation.&#x20;
+
+For example, one of my favorite FE problems is [implementing a text editor](https://leetcode.com/discuss/interview-question/860501/Text-Editor-Implementation). In this problem, you are asked to create a function that manages operations on text (appending, deleting, selecting, undoing, redoing). It doesn't require LeetCode-style knowledge (binary trees etc). But it will test your ability to iterate on a problem and still keep your code clean.
 
 The key to solving these problems it to take it step by step. Write custom tests as you go along to ensure you don't break anything from the previous requirement.
-
-For frontend interviews, the problems may not be as argorithmic, but will require some basic knowledge of concepts like state management, recursion, and string manipulation. For example you may be asked to create a function that manages operations on text (appending, deleting, selecting, undoing, redoing).
 
 So if I were writing tests I would make the following:
 
@@ -72,6 +92,8 @@ These are **crucial** to more senior level positions. They're going to test a wh
 You may be given a mockup/design or you may be given a vague prompt. Your job is to describe how you would architect the app in either scenario.
 
 If you read the rest of the pages in this book, you will find all sorts of [Technical](technical-functional-requirements/) and [Non Technical](product-nonfunctional-requirements.md) considerations.&#x20;
+
+Note that depending on the level you are applying for, you'll .&#x20;
 
 You generally will be asked to:
 
