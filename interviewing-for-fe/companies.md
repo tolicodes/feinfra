@@ -6,7 +6,7 @@ Note that I chose Dropbox, and am strongly happy with my choice, so I'm obviousl
 
 I will slowly fill this page with other companies I interviewed for. Feel free to a submit a PR for yours.
 
-**IMPORTANT**: I am **NOT legally/officially representing** any of these companies or claiming it's valid. It's simply an **aggregation** of what I've seen in **public forums and asking around**. It is meant to give you a rough sketch and opinion of culture within these companies
+**IMPORTANT**: I am **NOT legally/officially representing** any of these companies or claiming it's valid. It's simply an **aggregation** of what I've seen in **public forums and asking around**. It is meant to give you a rough sketch and opinion of culture within these companies. All information obtained here was **non-proprietary** gathered **BEFORE** employment at these companies, and did not come from an official company source.
 
 ## Dropbox
 
