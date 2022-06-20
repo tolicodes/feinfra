@@ -1,7 +1,7 @@
 # Table of contents
 
 * [Why I Wrote This Guide](README.md)
-* [Development Strategy](development-strategy.md)
+* [Development Roadmap](development-roadmap.md)
 * [Product/Nonfunctional Requirements](product-nonfunctional-requirements.md)
 * [Technical/Functional Requirements](technical-functional-requirements/README.md)
   * [Performance](technical-functional-requirements/performance.md)
@@ -16,6 +16,7 @@
 * [Topic In Depths](topic-in-depths/README.md)
   * [Containerization](topic-in-depths/containerization.md)
   * [Data Stack](topic-in-depths/data-stack.md)
+  * [Tools and Packages List](topic-in-depths/tools-and-packages-list.md)
 * [Common Solutions](common-solutions.md)
 * [Success/Failure Stories](success-failure-stories/README.md)
   * [Comp At Startups](success-failure-stories/comp-at-startups.md)

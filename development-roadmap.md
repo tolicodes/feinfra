@@ -1,16 +1,16 @@
-# Development Strategy
+# Development Roadmap
 
 How to approach the dev process, start to finish
 
 
 
-* Go through general plan with PM, Designers, and rest of Team
-* Go through proposed data architecture with the BE Team. We will probably write out the API contract in Swagger to make sure it roughly lines up with the feature plan
-* Design review for the components we will be building out, have stakeholders check off on that, at least have a rough sketch to get started approved by PM/Design
-* Go through general conventions like error codes, authentication, query Param formats, common models, rough DB table diagram
-* Go through tracking and conversion strategy with PMs/marketing (Mixpanel, etc)
-* Ask around - what is the proposed stack in the rest of the org, use that. Otherwise below is my standard stack
-  * If there is a migration strategy in progress, ask how to fit into that
+* **Get the Team Onboard**: Go through general plan with PM, Designers, and rest of Team. What do they already have in mind?
+* **Data Architecture**: Go through proposed data architecture with the BE Team. We will probably write out the API contract in Swagger to make sure it roughly lines up with the feature plan
+* **MVP Design Review**: work with Design team on the wireframes/design for the components we will be building out for the MVP. Have stakeholders check off on that. At least have a rough sketch to get started approved by PM/Design
+* **Dev Conventions/Boilerplate**: Go through general conventions like error codes, authentication, query Param formats, common models, rough DB table diagram
+* **Conversion/Tracking Strategy**: Go through tracking and conversion strategy with PMs/marketing (Mixpanel, etc)
+* **Propose Stack**: Ask around - what is the proposed stack in the rest of the org, use that. Otherwise below is my standard stack
+  * If there is a migration strategy from an older stack in progress, ask how to fit into that
 * Does the company have some sort of UI Kit/Style Guide/Common Components library
 * Start building individual components using Storybook
   * Discuss style guide with design teams - how do general components look like and interact, build that out first (examples below)
