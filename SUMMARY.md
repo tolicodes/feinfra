@@ -1,6 +1,7 @@
 # Table of contents
 
 * [Why I Wrote This Guide](README.md)
+* [Mock Interviews](mock-interviews.md)
 * [Development Roadmap](development-roadmap.md)
 * [Product/Nonfunctional Requirements](product-nonfunctional-requirements.md)
 * [Technical/Functional Requirements](technical-functional-requirements/README.md)
