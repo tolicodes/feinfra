@@ -23,11 +23,7 @@ I will slowly fill this page with other companies I interviewed for. Feel free t
 
 **Cons**
 
-* **Promotions**: Something mentioned by almost everyone I spoke to, is promotions are quite difficult. So make sure you negotiate as high of a band as you can when entering. With that said, you can get a promotion if you get to know the right people, and highlight your impact on the company. You will have lots of room for side work outside of your team. Volunteer for task and projects that have high visibility and impact.
-* **Virtual First (No Office)**: Pre-COVID, Dropbox was know for its amazing office. 5 start Michellin meals, great office culture, a vending machine full on any peripheral you want (headphones, etc). After COVID, Dropbox went "virtual first". Many say this was a cost cutting measure. While many engineers prefer this, some downsides include a less "extroverted" work style. I like to hang with coworkers in the office, have water cooler chats. There are "Studios" aka coworking spaces for teams to occasionally meet. But from what I heard they're not used much.
-* **Slow**: Like most big orgs, Dropbox is a bit slow on the product side. Projects take a very long time to complete. Coming from the startup world, this may be a shock.
-* **Stagnant Product**: Most of the revenue comes from Dropbox's core business (storage and sync). It has tried spinning off a few products, but they haven't been to successful. Management has been somewhat risk averse in trying products outside the core business. This may affect you if you're startup-minded and product focused. But not as much if you care mostly about the tech
-* **Upper Management**: I heard from a few sources, that since one of the founders left, the upper management quality has declined. People mentioened there isn't as much focus on growth anymore, and the company doesn't innovate a lot from the product side. However this doesn't seem to affect ICs much.
+**As I'm working at Dropbox now will omit these. But clearly the pros outweigh them ;)**&#x20;
 
 #### Verdict
 
