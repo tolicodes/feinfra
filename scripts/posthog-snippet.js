@@ -63,7 +63,11 @@ function startAnalytics(client, { projectToken, apiHost, site, win, hashRouting 
       blockSelector: '[data-private], .ph-no-capture, input[type="hidden"], input[type="file"]',
       recordHeaders: false,
       recordBody: false,
-      maskCapturedNetworkRequestFn: () => null,
+      // Preserve sanitized URL-only replay Meta calls; reject actual network records.
+      maskCapturedNetworkRequestFn: (request) =>
+        request && Object.keys(request).length === 1 && typeof request.name === "string"
+          ? { name: cleanUrl(request.name) }
+          : null,
     },
     before_send: sanitizeEvent,
     loaded: (instance) => {

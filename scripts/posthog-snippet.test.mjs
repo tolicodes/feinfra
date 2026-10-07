@@ -19,3 +19,9 @@ test("canonical visitors get masked anonymous analytics without payload capture"
  assert.equal(config.session_recording.maskCapturedNetworkRequestFn({}), null);
  assert.equal(config.before_send({properties: {$current_url:"https://feinfra.toli.me/chapter/?token=private#unknown"}}).properties.$current_url,"https://feinfra.toli.me/chapter/");
 });
+
+test("replay page URL metadata survives masking while network records remain rejected", () => {
+ const config = run("feinfra.toli.me")._i[0][1], mask = config.session_recording.maskCapturedNetworkRequestFn;
+ assert.equal(mask({name:"https://feinfra.toli.me/performance/?token=private#unknown"}).name,"https://feinfra.toli.me/performance/");
+ assert.equal(mask({name:"https://feinfra.toli.me/api",method:"POST",requestBody:"private",headers:{authorization:"private"}}),null);
+});
