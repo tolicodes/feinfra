@@ -24,7 +24,7 @@ Toli is a FE architect with 12y of experience. He started his career in enterpri
 
 ### Code Samples (Todo)
 
-OpenGSN, Offchain Whitelisting, Node Queue, PickleJS, API Scraping Watch Me Code, Article on API Scraping, StackOverflow (5k+), Easter Creatures NFT
+OpenGSN, Offchain Whitelisting, Node Queue, [PickleJS](https://picklejs.toli.me/), API Scraping Watch Me Code, Article on API Scraping, StackOverflow (5k+), Easter Creatures NFT
 
 ### Personal Story
 

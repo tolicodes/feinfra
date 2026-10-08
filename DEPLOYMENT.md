@@ -1,6 +1,6 @@
 # Frontend Infra Book hosting
 
-The historical GitBook Markdown remains here unchanged. Production is the static Next export retained in Netlify `feinfra-book` (site 2423212a-2330-44bd-b8c6-12cd20edf5d3), published deploy `6a626235e879a0f66adbede4` from July 23, 2026. This repo currently has no rebuild pipeline for that exported site. Canonical hostname is https://feinfra.toli.me; old domain aliases remain for existing links.
+The historical GitBook Markdown remains here, with restored outbound documentation links. Production is the static Next export retained in Netlify `feinfra-book` (site 2423212a-2330-44bd-b8c6-12cd20edf5d3), published deploy `6a626235e879a0f66adbede4` from July 23, 2026. This repo currently has no rebuild pipeline for that exported site. Canonical hostname is https://feinfra.toli.me; old domain aliases remain for existing links.
 
 ## Session replay — October 7, 2026
 
@@ -17,3 +17,7 @@ The original network-mask callback returned null for every call. SDK 1.438.2 als
 The callback now retains sanitized URL-only metadata and rejects actual network-request records. Headers, bodies, console capture, input masking, production-host/privacy opt-outs and private-context gates retain their contracts. Replay page URLs now use the existing URL sanitizer. A snippet regression exercises URL-only calls matching the verified SDK URL-mask path and verifies that page metadata survives while request payloads are rejected. Corrected source and checks are committed before publishing; new visual playback and deployment receipts are verified separately. Old recordings lacking viewport metadata are preserved and may remain black.
 
 Viewport correction deployed: runtime source d05234ef47f6307c0687a7be1dab411a4c5d9ad4; Netlify footer snippet0; exact corrected source is present live. New toli.me playback visibly renders the recorded page. This verifies the corrected shared callback; per-host live source checks do not establish visual playback on every host. Old recordings lacking viewport metadata remain preserved. This documentation follow-up does not rebuild or redeploy runtime code.
+
+## PickleJS cross-links — October 8, 2026
+
+Three historical Markdown mentions now link to https://picklejs.toli.me/. The deployed reader differs from that Markdown: only Scaling HOVER and Company Culture contain PickleJS. Their two server HTML pages and six Next Flight payloads are patched together, including recalculated UTF-8 text-record lengths and serialized hydration data. This preserves client navigation as well as direct loads. Original raw inputs are verified against Netlify upload SHA1 values; the committed deployment/picklejs-crosslinks manifest retains every unchanged file digest and the exact prior deployment. Atomic digest publication reuses unchanged assets, redirects and headers, retaining the configured PostHog footer snippet. No old export or historical evidence is deleted. Source validation precedes deployment; published results are recorded separately.

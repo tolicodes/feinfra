@@ -28,7 +28,7 @@ Scenario: Sign up for updates When I open the "Home Page" And I enter "toli@hove
 
 Notice how there are a few variations. You can reference elements on their own, or inside other elements, with a grammar that made sense “inside of the” vs “in the”. All the element selectors were abstracted into an easy to read json file, which would avoid our refactor problem. And there were all sorts of cool features like searching for text, enumeration (3rd button), state management, endpoint stubbing (including GraphQL).
 
-Little by little I started building on top of these abstractions, and started adding tools that could be used in conjunction with my engine, or individually. Soon it turned into its own library – PickleJS, which HOVER released as its first open source project.
+Little by little I started building on top of these abstractions, and started adding tools that could be used in conjunction with my engine, or individually. Soon it turned into its own library – [PickleJS](https://picklejs.toli.me/), which HOVER released as its first open source project.
 
 Very quickly our team adopted this new standard. It was pretty self explanatory. But I would sit with each team and help them get started. Of course, all sorts of interesting scenarios would come up in each team. And I pair programmed with them to make Pickle more and more stable and complete.
 
