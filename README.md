@@ -7,3 +7,9 @@ I tried searching for some videos, but most examples were for Backend/Distribute
 So I had to piece together some knowledge I had from my career, asked a few folks to help out, and did a few mock interviews.&#x20;
 
 I decided to release this as open source, because us FE folks need some love too!!! Feel free to make PRs and [contribute](https://github.com/tolicodes/feinfra)!
+
+## Website
+
+Read the book at [feinfra.toli.me](https://feinfra.toli.me).
+[Hosting and interaction analytics](DEPLOYMENT.md) describe the retained static
+export, Clarity snippet and privacy boundaries.
