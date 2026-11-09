@@ -8,13 +8,8 @@ So I had to piece together some knowledge I had from my career, asked a few folk
 
 I decided to release this as open source, because us FE folks need some love too!!! Feel free to make PRs and [contribute](https://github.com/tolicodes/feinfra)!
 
-## Website analytics
+## Website
 
-The existing Netlify site serves the public book at `feinfra.toli.me`.
-Its footer snippet uses the official Microsoft Clarity tag for project
-`zb5fa2mqgu`, replacing the historical PostHog snippet. Canonical-host, DNT/GPC,
-credential-bearing URL/referrer and duplicate-startup guards run before loading.
-Inputs/private-marked elements and project text are masked; analytics and
-advertising storage consent are denied. No identity or custom content is sent.
-The source snippet is `scripts/clarity-snippet.js`. Its provider configuration,
-served-page injection and actual recording receipt are separate checks.
+Read the book at [feinfra.toli.me](https://feinfra.toli.me).
+[Hosting and interaction analytics](DEPLOYMENT.md) describe the retained static
+export, Clarity snippet and privacy boundaries.
